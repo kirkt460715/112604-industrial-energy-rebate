@@ -1,0 +1,68 @@
+[
+  {
+    "id": "head-1",
+    "meter": "head",
+    "days": [
+      1,
+      30
+    ],
+    "kwh_reduction": 3100
+  },
+  {
+    "id": "n-old",
+    "meter": "N-41",
+    "workshop": "N",
+    "days": [
+      1,
+      12
+    ],
+    "kwh_reduction": 900
+  },
+  {
+    "id": "n-new",
+    "meter": "N-42",
+    "workshop": "N",
+    "days": [
+      15,
+      30
+    ],
+    "kwh_reduction": 870
+  },
+  {
+    "id": "swap-n",
+    "room": "N",
+    "retired": "N-41",
+    "new": "N-42",
+    "effective": 15
+  },
+  {
+    "id": "n-overlap",
+    "meter": "N-41",
+    "days": [
+      14,
+      15
+    ],
+    "kwh_reduction": 300,
+    "provisional": true
+  },
+  {
+    "id": "n-patch",
+    "meter": "N-41",
+    "days": [
+      13,
+      14
+    ],
+    "kwh_reduction": 240,
+    "received_day": 36
+  },
+  {
+    "id": "s-full",
+    "meter": "S-5",
+    "workshop": "S",
+    "days": [
+      1,
+      30
+    ],
+    "kwh_reduction": 1210
+  }
+]

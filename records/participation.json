@@ -1,0 +1,41 @@
+[
+  {
+    "id": "join-A",
+    "participant": "A",
+    "workshop": "N",
+    "days": [
+      1,
+      14
+    ],
+    "eligible_kwh_cap": 1200
+  },
+  {
+    "id": "join-B",
+    "participant": "B",
+    "workshop": "N",
+    "days": [
+      15,
+      30
+    ],
+    "eligible_kwh_cap": 900
+  },
+  {
+    "id": "join-C",
+    "participant": "C",
+    "workshop": "S",
+    "days": [
+      1,
+      30
+    ],
+    "eligible_kwh_cap": 1600
+  },
+  {
+    "id": "discount-b",
+    "participant": "B",
+    "days": [
+      18,
+      22
+    ],
+    "kwh_paid_elsewhere": 200
+  }
+]

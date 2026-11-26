@@ -1,0 +1,28 @@
+[
+  {
+    "id": "award-1",
+    "scope": "head",
+    "settled_cap_kwh": 2900,
+    "amount": 232000,
+    "day": 31
+  },
+  {
+    "id": "A-paid",
+    "participant": "A",
+    "based_on": "n-old",
+    "amount": 72000,
+    "day": 33
+  },
+  {
+    "id": "C-paid",
+    "participant": "C",
+    "based_on": "s-full",
+    "amount": 96800,
+    "day": 33
+  },
+  {
+    "id": "close-1",
+    "day": 34,
+    "status": "closed"
+  }
+]
